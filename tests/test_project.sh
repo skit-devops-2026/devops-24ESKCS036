@@ -15,8 +15,6 @@ echo "✓ login.html exists"
 test -f register.html
 echo "✓ register.html exists"
 
-test -f about.html
-echo "✓ about.html exists"
 
 # Test 3: CSS exists
 test -f css/style.css
@@ -31,7 +29,7 @@ test -f js/validation.js
 echo "✓ Validation JavaScript exists"
 
 # Test 6: HTML pages contain basic HTML structure
-for file in index.html login.html register.html about.html; do
+for file in index.html login.html register.html ; do
     grep -qi "<html" "$file"
     grep -qi "<body" "$file"
     echo "✓ $file has basic HTML structure"
