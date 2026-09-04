@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Running BreakBasket tests..."
+echo "Running BreadBasket tests..."
 
 # Test 1: Main page exists
 test -f index.html
@@ -38,4 +38,4 @@ for file in index.html login.html register.html about.html; do
 done
 
 echo ""
-echo "All BreakBasket tests passed!"
+echo "All BreadBasket tests passed!"
