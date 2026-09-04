@@ -1,4 +1,4 @@
-# <Project Name>
+# BreadBasket
 
 > Replace every angle-bracket placeholder below. The hygiene check in CI will
 > fail until you do.
@@ -7,15 +7,15 @@
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| <roll> | <name> | <username> |
+| 24ESKCS036 | Akshita Khandelwal | Akshita457 |
 
 ## About
 
-<Two or three sentences on what this application does.>
+BreadBasket is an application that connects restaurants, hotels and bakeries with NGOs to provide surplus food to the people who need it.
 
 ## Tech stack
 
-- Frontend: <e.g. React>
+- Frontend: HTML, CSS, JavaScript  
 - Backend: <e.g. Node.js / Express>
 - Database: <e.g. PostgreSQL>
 
