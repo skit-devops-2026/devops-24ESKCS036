@@ -17,15 +17,15 @@ pipeline {
 
         stage('Build') {
             steps {
-                powershell '''
-                    if (!(Test-Path "index.html")) { exit 1 }
-                    if (!(Test-Path "css/style.css")) { exit 1 }
-                    if (!(Test-Path "js/script.js")) { exit 1 }
+                bat '''
+            if not exist index.html exit /b 1
+            if not exist css\\style.css exit /b 1
+            if not exist js\\script.js exit /b 1
 
-                    Write-Host "Build validation successful."
-                '''
-            }
-        }
+            echo Build validation successful.
+        '''
+    }
+}
 
         stage('Test') {
             steps {
