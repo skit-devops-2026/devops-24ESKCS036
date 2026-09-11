@@ -15,20 +15,21 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                bat 'bash tests/test_project.sh'
-            }
-        }
-
         stage('Build') {
             steps {
                 powershell '''
                     if (!(Test-Path "index.html")) { exit 1 }
                     if (!(Test-Path "css/style.css")) { exit 1 }
                     if (!(Test-Path "js/script.js")) { exit 1 }
+
                     Write-Host "Build validation successful."
                 '''
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'bash tests/test_project.sh'
             }
         }
     }
