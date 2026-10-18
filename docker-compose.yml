@@ -1,0 +1,8 @@
+
+services:
+  breadbasket:
+    build: .
+    container_name: breadbasket
+    ports:
+      - "8080:80"
+    restart: unless-stopped
