@@ -13,10 +13,6 @@
 
 BreadBasket is an application that connects restaurants, hotels and bakeries with NGOs to provide surplus food to the people who need it.
 
-## Live Demo
-
-Live Website: https://skit-devops-2026.github.io/devops-24ESKCS036/
-
 ## Tech stack
 
 - Frontend: HTML, CSS, JavaScript  
@@ -36,7 +32,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+https://skit-devops-2026.github.io/devops-24ESKCS036/
 
 ## Health endpoint
 
